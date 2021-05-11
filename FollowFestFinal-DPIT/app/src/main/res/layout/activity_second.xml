@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="retegan.configuration.Second">
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="140dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="app"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:text="Start App"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="236dp" />
+
+    <ToggleButton
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="356dp"
+        android:layout_height="143dp"
+        android:textOn="Turn Off Bluetooth"
+        android:textOff="Turn On Bluetooth"
+        android:checked="false"
+        tools:layout_editor_absoluteX="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="16dp"
+        android:onClick="bluemenu"
+        android:text="Take me to Bluetooth menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+</android.support.constraint.ConstraintLayout>
